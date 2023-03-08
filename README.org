@@ -2,8 +2,6 @@
 
 WIP simple OpenGL implementation of a classic text-based adventure game "Wumpus"
 
-[[file:img/raycasted-sphere.png]]
-
 * Building
 
 ** Prerequisites
@@ -51,5 +49,5 @@ And ~-DFORCE_COLORED_OUTPUT=ON~ to get colorful diagnostics with ~Ninja~
 Now compile and run (you should still in ~build~ directory):
 #+begin_src shell
   ninja
-  ./sphere-raycaster
+  ./wumpus
 #+end_src
